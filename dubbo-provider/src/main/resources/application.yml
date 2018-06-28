@@ -1,7 +1,7 @@
 server:                  #配置server
   tomcat:       #springboot乱码解决
     uri-encoding: UTF-8
-  port: 8093
+  port: 8090
 
 spring:
   datasource:
@@ -36,7 +36,7 @@ mybatis:     #配置mybatis
 
 dubbo:
   scan:
-    base-packages: com.xiaoze.provider.service
+    basePackages: com.xiaoze.provider.service
   application:
     id: dubbo-provider
     name: dubbo-provider
