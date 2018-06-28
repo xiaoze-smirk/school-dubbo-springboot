@@ -17,7 +17,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class CourseTypeServiceImpl implements CourseTypeService {
 
-    @Reference(application = "${dubbo.application.id}",
+    @Reference(version = "${demo.service.version}",
+            application = "${dubbo.application.id}",
             url = "dubbo://localhost:20880")
     private CourseTypeDao courseTypeDao;
 

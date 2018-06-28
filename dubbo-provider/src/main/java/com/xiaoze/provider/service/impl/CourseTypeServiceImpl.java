@@ -18,7 +18,7 @@ import java.util.List;
  * @author xiaoze
  * @date 2018/6/11
  */
-@Service(
+@Service(version = "${demo.service.version}",
         application = "${dubbo.application.id}",
         protocol = "${dubbo.protocol.id}",
         registry = "${dubbo.registry.id}"

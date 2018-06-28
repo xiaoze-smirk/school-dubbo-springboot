@@ -15,7 +15,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Reference(application = "${dubbo.application.id}",
+    @Reference(version = "${demo.service.version}",
+            application = "${dubbo.application.id}",
             url = "dubbo://localhost:20880")
     private UserDao userDao ;
 

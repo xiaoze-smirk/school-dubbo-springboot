@@ -27,3 +27,6 @@ dubbo:
   registry:
     address: zookeeper://localhost:2181
 
+demo:
+  service:
+    version: 1.0.0
