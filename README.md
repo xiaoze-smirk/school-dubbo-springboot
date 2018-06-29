@@ -5,7 +5,9 @@ school-dubbo-springboot是一个基于Dubbo的课程管理系统，服务通过R
 ## 一、运行工具、技术与环境
 
 运行环境：JDK 8，Maven 3.3+
+
 技术栈：SpringBoot 2.0+、Dubbo 2.6+、Druid、Thymeleaf、ZooKeeper 3.3+
+
 工具：IntelliJ IDEA、谷歌浏览器
 
 ## 二、Springboot快速集成Dubbo关键的依赖
